@@ -19,7 +19,7 @@
 
 	//Download CV
 	function downloadCV() {
-		const pdf = 'public/My Resume.pdf';
+		const pdf = 'My Resume.pdf';
 		const anchor = document.createElement('a');
 		anchor.href = pdf;
 		anchor.download = 'Jason-Maliquid-Resume.pdf';
@@ -35,7 +35,7 @@
 		<div class="block sm:flex sm:items-center">
 			<!-- Nav Logo -->
 			<div>
-				<img src="src/img/JM Icon.png" alt="Logo" class=" w-14 h-14 sm:flex" />
+				<img src="img/JM Icon.png" alt="Logo" class=" w-14 h-14 sm:flex" />
 			</div>
 			<!-- Nav Content -->
 			<div
@@ -62,16 +62,16 @@
 				class="flex space-x-10 pt-12 justify-center sm:flex sm:pt-0 sm:items-center sm:space-x-4 sm:ml-auto sm:pr-10"
 			>
 				<a href="https://github.com/OMGItsJason">
-					<img src="src/img/github.png" alt="GitHub" class="w-10 h-10 sm:w-8 sm:h-8" />
+					<img src="img/github.png" alt="GitHub" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
 				<a href="https://www.facebook.com/maliquid.jason">
-					<img src="src/img/facebook.png" alt="Facebook" class="w-10 h-10 sm:w-8 sm:h-8" />
+					<img src="img/facebook.png" alt="Facebook" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
 				<a href="https://www.m.me/maliquid.jason">
-					<img src="src/img/messenger.png" alt="Messenger" class="w-10 h-10 sm:w-8 sm:h-8" />
+					<img src="img/messenger.png" alt="Messenger" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
 				<a href="https://www.instagram.com/itz.me_jason">
-					<img src="src/img/instagram.png" alt="Instagram" class="w-10 h-10 sm:w-8 sm:h-8" />
+					<img src="img/instagram.png" alt="Instagram" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
 			</div>
 		</div>
@@ -88,7 +88,7 @@
 			<div class="flex justify-center mt-20 mb-10 sm:hidden">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img
-					src="src/img/Profile-Picture.png"
+					src="img/Profile-Picture.png"
 					alt="Profile Picture"
 					class="w-72 h-auto border-solid border-yellow-500 border-4"
 				/>
@@ -119,7 +119,7 @@
 				<p
 					class="flex items-center justify-center text-lg font-semibold sm:text-xl sm:flex sm:justify-start sm:animate-fade-right sm:animate-delay-375 sm:animate-duration-2000"
 				>
-					<img src="src/img/map-pin.png" alt="Map Pin" class="block w-6 h-6 mr-1 sm:w-7 sm:h-7" />
+					<img src="img/map-pin.png" alt="Map Pin" class="block w-6 h-6 mr-1 sm:w-7 sm:h-7" />
 					Area - 51
 				</p>
 				<div class="flex justify-center">
@@ -134,7 +134,7 @@
 			<div class="hidden sm:block sm:ml-10">
 				<!-- svelte-ignore a11y-img-redundant-alt -->
 				<img
-					src="src/img/Profile-Picture.png"
+					src="img/Profile-Picture.png"
 					alt="Profile Picture"
 					class="rounded-full border-solid border-yellow-500 border-4 sm:animate-fade-left sm:animate-delay-375 sm:animate-duration-2000"
 				/>
@@ -150,7 +150,7 @@
 	>
 		<div class="sm:flex sm:items-center">
 			<img
-				src="src/img/Profile-Picture-Two.jpg"
+				src="img/Profile-Picture-Two.jpg"
 				alt="About Profile Pic"
 				class="hidden sm:rounded-xl sm:border-solid sm:border-sky-800 sm:border-4 sm:w-96 h-auto sm:mr-24 sm:block animate-jump animate-delay-275 animate-duration-2000"
 			/>
@@ -184,15 +184,15 @@
 				class="block space-y-5 mt-10 ml-12 text-center text-white font-semibold sm:flex sm:space-y-0 sm:mt-10"
 			>
 				<div class="flex flex-col w-80 h-auto sm:mr-5">
-					<img src="src/img/Voting System Project.png" alt="Voting System" class="h-52 sm:h-64" />
+					<img src="img/Voting System Project.png" alt="Voting System" class="h-52 sm:h-64" />
 					<p>Voting System Application Using C#</p>
 				</div>
 				<div class="block w-80 h-auto">
-					<img src="src/img/Netflix Clone.png" alt="Netflix Clone" class="h-52 sm:h-64" />
+					<img src="img/Netflix Clone.png" alt="Netflix Clone" class="h-52 sm:h-64" />
 					<p>Netflix Clone using HTML And CSS</p>
 				</div>
 				<div class="block w-80 h-auto sm:ml-5">
-					<img src="src/img/Animez.png" alt="Animez" class="h-52 sm:h-64" />
+					<img src="img/Animez.png" alt="Animez" class="h-52 sm:h-64" />
 					<p>Animez using HTML And CSS</p>
 				</div>
 			</div>
@@ -220,7 +220,7 @@
 							on:mouseout={() => handleHover(tech, false)}
 						>
 							<img
-								src={`src/img/${tech}.png`}
+								src={`img/${tech}.png`}
 								alt={tech}
 								class={`w-10 h-10 sm:w-20 sm:h-20 object-cover transform transition-transform ${
 									techExperience[tech].hovered ? 'animate-bounce' : ''
@@ -263,13 +263,13 @@
 			>
 				<li>
 					<img
-						src="src/img/Java Foundation Certificate.png"
+						src="img/Java Foundation Certificate.png"
 						alt="Java Foundation Certificate"
 					/>Java Foundation Certificate
 				</li>
 				<li>
 					<img
-						src="src/img/System Administration Certificate.png"
+						src="img/System Administration Certificate.png"
 						alt="System Administration Certificate"
 					/>System Administration Certificate
 				</li>
@@ -284,16 +284,16 @@
 			<p class="pl-2 pt-2 mr-1 sm:pl-5">Any Question? Contact Me:</p>
 			<div class="flex space-x-3 pt-1">
 				<a href="https://github.com/OMGItsJason">
-					<img src="src/img/github.png" alt="GitHub" class="w-8 h-8" />
+					<img src="img/github.png" alt="GitHub" class="w-8 h-8" />
 				</a>
 				<a href="https://www.facebook.com/maliquid.jason">
-					<img src="src/img/facebook.png" alt="Facebook" class="w-8 h-8" />
+					<img src="img/facebook.png" alt="Facebook" class="w-8 h-8" />
 				</a>
 				<a href="https://www.m.me/maliquid.jason">
-					<img src="src/img/messenger.png" alt="Messenger" class="w-8 h-8" />
+					<img src="img/messenger.png" alt="Messenger" class="w-8 h-8" />
 				</a>
 				<a href="https://www.instagram.com/itz.me_jason">
-					<img src="src/img/instagram.png" alt="Instagram" class="w-8 h-8" />
+					<img src="img/instagram.png" alt="Instagram" class="w-8 h-8" />
 				</a>
 			</div>
 		</div>
