@@ -61,19 +61,19 @@
 			<div
 				class="flex space-x-10 pt-12 justify-center sm:flex sm:pt-0 sm:items-center sm:space-x-4 sm:ml-auto sm:pr-10"
 			>
-				<a href="https://mailto:jasonm2822@gmail.com">
+				<a href="https://mailto:jasonm2822@gmail.com" target="_blank">
 					<img src="img/gmail.png" alt="Gmail" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
-				<a href="https://github.com/OMGItsJason">
+				<a href="https://github.com/OMGItsJason" target="_blank">
 					<img src="img/github.png" alt="GitHub" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
-				<a href="https://www.facebook.com/maliquid.jason">
+				<a href="https://www.facebook.com/maliquid.jason" target="_blank">
 					<img src="img/facebook.png" alt="Facebook" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
-				<a href="https://www.m.me/maliquid.jason">
+				<a href="https://www.m.me/maliquid.jason" target="_blank">
 					<img src="img/messenger.png" alt="Messenger" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
-				<a href="https://www.instagram.com/itz.me_jason">
+				<a href="https://www.instagram.com/itz.me_jason" target="_blank">
 					<img src="img/instagram.png" alt="Instagram" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
 			</div>
@@ -284,19 +284,19 @@
 		<div class="text-zinc-500 flex">
 			<p class="pl-2 pt-2 mr-3 sm:pl-5">Any Question? Contact Me:</p>
 			<div class="flex space-x-3 pt-1">
-				<a href="https://mailto:jasonm2822@gmail.com">
+				<a href="https://mailto:jasonm2822@gmail.com" target="_blank">
 					<img src="img/gmail.png" alt="Gmail" class="w-8 h-8" />
 				</a>
-				<a href="https://github.com/OMGItsJason">
+				<a href="https://github.com/OMGItsJason" target="_blank">
 					<img src="img/github.png" alt="GitHub" class="w-8 h-8" />
 				</a>
-				<a href="https://www.facebook.com/maliquid.jason">
+				<a href="https://www.facebook.com/maliquid.jason" target="_blank">
 					<img src="img/facebook.png" alt="Facebook" class="w-8 h-8" />
 				</a>
-				<a href="https://www.m.me/maliquid.jason">
+				<a href="https://www.m.me/maliquid.jason" target="_blank">
 					<img src="img/messenger.png" alt="Messenger" class="w-8 h-8" />
 				</a>
-				<a href="https://www.instagram.com/itz.me_jason">
+				<a href="https://www.instagram.com/itz.me_jason" target="_blank">
 					<img src="img/instagram.png" alt="Instagram" class="w-8 h-8" />
 				</a>
 			</div>
