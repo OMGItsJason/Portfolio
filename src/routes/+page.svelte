@@ -22,12 +22,12 @@
 		const pdf = 'My Resume.pdf';
 		const anchor = document.createElement('a');
 		anchor.href = pdf;
-		anchor.download = 'Jason-Maliquid-Resume.pdf';
+		anchor.download = 'Jason Maliquid Resume.pdf';
 		anchor.click();
 	}
 </script>
 
-<main class="sm:overflow-hidden">
+<main class="overflow-hidden">
 	<!-- Navigation -->
 	<nav
 		class="bg-sky-950 h-screen block px-4 py-2 sm:h-auto sm:bg-zinc-900 sm:fixed sm:w-screen sm:shadow-2xl sm:animate-fade-down sm:animate-delay-275 sm:animate-duration-700 sm:z-50"
@@ -61,6 +61,9 @@
 			<div
 				class="flex space-x-10 pt-12 justify-center sm:flex sm:pt-0 sm:items-center sm:space-x-4 sm:ml-auto sm:pr-10"
 			>
+				<a href="https://mailto:jasonm2822@gmail.com">
+					<img src="img/gmail.png" alt="Gmail" class="w-10 h-10 sm:w-8 sm:h-8" />
+				</a>
 				<a href="https://github.com/OMGItsJason">
 					<img src="img/github.png" alt="GitHub" class="w-10 h-10 sm:w-8 sm:h-8" />
 				</a>
@@ -279,8 +282,11 @@
 	<!-- Footer -->
 	<footer class="h-32 bg-zinc-800 flex sm:h-10">
 		<div class="text-zinc-500 flex">
-			<p class="pl-2 pt-2 mr-1 sm:pl-5">Any Question? Contact Me:</p>
+			<p class="pl-2 pt-2 mr-3 sm:pl-5">Any Question? Contact Me:</p>
 			<div class="flex space-x-3 pt-1">
+				<a href="https://mailto:jasonm2822@gmail.com">
+					<img src="img/gmail.png" alt="Gmail" class="w-8 h-8" />
+				</a>
 				<a href="https://github.com/OMGItsJason">
 					<img src="img/github.png" alt="GitHub" class="w-8 h-8" />
 				</a>
