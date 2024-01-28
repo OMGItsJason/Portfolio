@@ -127,7 +127,7 @@
 				<li class="hover:text-yellow-500">Certificates</li>
 			</a>
 		</div>
-		<div class="flex absolute right-5 space-x-3">
+		<div class="flex absolute right-8 space-x-3">
 			<a href="https://mailto:jasonm2822@gmail.com" target="_blank">
 				<img src="img/gmail.png" alt="Gmail" class="w-[30px] h-[30px]" />
 			</a>
@@ -310,6 +310,15 @@
 				</li>
 			</ul>
 		</div>
+		<div>
+			<p>
+				For More Projects You Can Also Vist My: <a
+					href="https://github.com/OMGItsJason?tab=repositories"
+					class="text-lg underline text-blue-500"
+					target="_blank">Github Repositories</a
+				>
+			</p>
+		</div>
 	</div>
 </div>
 
@@ -320,7 +329,7 @@
 	<div class="text-white text-center mt-10 p-5">
 		<h1 class="text-5xl font-bold sm:text-7xl">
 			<span class="font-bold text-sky-800">My</span>
-			<span class="font-bold text-yellow-500">Certificate</span>
+			<span class="font-bold text-yellow-500">Certificates</span>
 		</h1>
 		<div class="flex items-center align-middle justify-center">
 			<ul class="max-w-full my-10 space-y-5 font-semibold text-xl">
