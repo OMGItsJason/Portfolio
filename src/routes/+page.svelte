@@ -364,9 +364,3 @@
 		</div>
 	</div>
 </footer>
-
-<style>
-	body {
-		scroll-padding: 100px;
-	}
-</style>
