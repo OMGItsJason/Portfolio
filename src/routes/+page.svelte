@@ -291,16 +291,22 @@
 <div class="h-1 w-svw bg-yellow-500"></div>
 
 <!-- Projects -->
-<div id="Projects" class="w-svw h-1/2 p-5 text-white scroll-mt-[75px] sm:scroll-mt-[100px]">
+<div id="Projects" class="w-svw h-1/2 p-5 text-white scroll-mt-[75px] sm:scroll-mt-[150px]">
 	<div class="text-center">
 		<h1 class="text-5xl font-bold sm:text-7xl">
 			<span class="font-bold text-sky-800">My</span>
 			<span class="font-bold text-yellow-500">Projects</span>
 		</h1>
 		<div class="flex items-center justify-center">
-			<ul class="max-w-full my-10 space-y-5 font-semibold sm:w-1/2">
-				<li class="sm:flex sm:flex-col sm:align-middle sm:items-center sm:justify-center">
-					<img src="img/Voting System Project.png" alt="Voting System" />Voting System (C#)
+			<ul
+				class="max-w-full my-10 space-y-5 font-semibold sm:flex sm:space-x-5 sm:p-10 sm:items-center sm:space-y-0"
+			>
+				<li>
+					<img
+						src="img/Voting System Project.png"
+						alt="Voting System"
+						class="sm:w-130 sm:h-auto"
+					/>Voting System (C#)
 				</li>
 				<li>
 					<img src="/img/Netflix Clone.png" alt="Netflix Clone" /> Netflix Clone (HTML & CSS)
@@ -332,7 +338,9 @@
 			<span class="font-bold text-yellow-500">Certificates</span>
 		</h1>
 		<div class="flex items-center align-middle justify-center">
-			<ul class="max-w-full my-10 space-y-5 font-semibold text-xl">
+			<ul
+				class="max-w-full my-10 space-y-5 font-semibold text-xl sm:flex sm:space-x-5 sm:p-10 sm:items-center sm:w-130 sm:space-y-0"
+			>
 				<li>
 					<img src="img/Java Foundation Certificate.png" alt="Java Foundation Certificate" />Java
 					Foundation Certificate
