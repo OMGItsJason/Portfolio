@@ -127,21 +127,21 @@
 				<li class="hover:text-yellow-500">Certificates</li>
 			</a>
 		</div>
-		<div class="flex absolute right-8 space-x-3">
+		<div class="flex relative ml-auto space-x-3">
 			<a href="https://mailto:jasonm2822@gmail.com" target="_blank">
-				<img src="img/gmail.png" alt="Gmail" class="w-[30px] h-[30px]" />
+				<img src="img/gmail.png" alt="Gmail" class="w-[30px] h-w-[30px]" />
 			</a>
 			<a href="https://github.com/OMGItsJason" target="_blank">
-				<img src="img/github.png" alt="GitHub" class="w-[30px] h-[30px]" />
+				<img src="img/github.png" alt="GitHub" class="w-[30px] h-w-[30px]" />
 			</a>
 			<a href="https://www.facebook.com/maliquid.jason" target="_blank">
-				<img src="img/facebook.png" alt="Facebook" class="w-[30px] h-[30px]" />
+				<img src="img/facebook.png" alt="Facebook" class="w-[30px] h-w-[30px]" />
 			</a>
 			<a href="https://www.m.me/maliquid.jason" target="_blank">
-				<img src="img/messenger.png" alt="Messenger" class="w-[30px] h-[30px]" />
+				<img src="img/messenger.png" alt="Messenger" class="w-[30px] h-w-[30px]" />
 			</a>
 			<a href="https://www.instagram.com/itz.me_jason" target="_blank">
-				<img src="img/instagram.png" alt="Instagram" class="w-[30px] h-[30px]" />
+				<img src="img/instagram.png" alt="Instagram" class="w-[30px] h-w-[30px]" />
 			</a>
 		</div>
 	</nav>
