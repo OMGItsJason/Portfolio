@@ -18,12 +18,12 @@
 	}
 
 	let techExperience = [
-		{ lang: [Java], exp: '2 Year' },
-		{ lang: [Python], exp: '1 Years' },
+		{ lang: [Java], exp: '2 Years' },
+		{ lang: [Python], exp: '1 Year' },
 		{ lang: [Csharp], exp: '2 Years' },
-		{ lang: [Html], exp: '1 Years' },
-		{ lang: [Css], exp: '1 Years' },
-		{ lang: [JavaScript], exp: '1 Years' },
+		{ lang: [Html], exp: '1 Year' },
+		{ lang: [Css], exp: '1 Year' },
+		{ lang: [JavaScript], exp: '1 Year' },
 		{ lang: [Svelte], exp: '1 Year' },
 		{ lang: [Tailwindcss], exp: '1 Year' }
 	];
