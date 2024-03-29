@@ -10,12 +10,12 @@
 		<span class="font-bold text-sky-800">Projects</span>
 	</h1>
 	<div class="px-10 sm:px-0">
-		<ul class="sm:w-[830px] sm:gap-3 sm:grid sm:grid-cols-3 space-y-5 sm:space-y-0">
+		<ul class="block space-y-5 sm:flex sm:space-y-0 sm:gap-5">
 			<li>
 				<img
 					src={VotingSys}
 					alt="Voting System"
-					class="w-full h-full object-fill rounded-2xl border-2 border-yellow-500"
+					class="w-[1600px] h-full object-fill rounded-2xl border-2 border-yellow-500"
 				/>
 				<span>Voting System (C#)</span>
 			</li>

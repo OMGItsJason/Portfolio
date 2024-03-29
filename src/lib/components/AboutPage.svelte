@@ -3,7 +3,7 @@
 		<span class="font-bold text-yellow-500">About</span>
 		<span class="font-bold text-sky-800">Me</span>
 	</h1>
-	<p class="text-sm px-5 sm:w-auto sm:px-0">
+	<p class="text-base px-5 sm:w-auto sm:px-0">
 		I am a 3rd Year Bachelor of Science in Information Technology (BSIT) student with a solid
 		background in Java, Python, and C#. as well as practical experience developing websites with
 		HTML, CSS, and JavaScript. I am eager to contribute technical expertise and creativity to an

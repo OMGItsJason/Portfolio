@@ -73,7 +73,7 @@
 		</ul>
 	</div>
 	<p
-		class="text-center text-sm bg-gradient-to-l from-sky-500 to-yellow-300 bg-clip-text text-transparent"
+		class="text-center font-semibold text-sm bg-gradient-to-l from-sky-500 to-yellow-300 bg-clip-text text-transparent"
 	>
 		Hover On Each Image To Show Experience
 	</p>
