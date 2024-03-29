@@ -2,7 +2,6 @@
 	import '../global.css';
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
-
 	import HamburgerBtn from '$lib/svg/humbergButton.svg';
 	import CloseBtn from '$lib/svg/close-button.svg';
 	import Logo from '$lib/img/JM-Icon.png';
@@ -16,7 +15,6 @@
 	import ProjectsPage from '$lib/components/ProjectsPage.svelte';
 	import CertificatesPage from '$lib/components/CertificatesPage.svelte';
 	import { goto } from '$app/navigation';
-	import { Analytics } from '@vercel/analytics/next';
 
 	let menuOpen = false;
 
