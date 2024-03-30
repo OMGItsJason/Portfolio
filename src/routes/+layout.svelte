@@ -60,7 +60,7 @@
 			</button>
 		</div>
 		<div class="hidden sm:block">
-			<ul class="flex text-center text-sm font-medium text-white space-x-10">
+			<ul class="flex text-center text-sm font-medium text-white space-x-16">
 				<li>
 					<a href="/">ABOUT</a>
 				</li>
@@ -72,30 +72,6 @@
 				</li>
 				<li>
 					<a href="#Certificates">CERTIFICATES</a>
-				</li>
-			</ul>
-		</div>
-		<div class="hidden sm:block">
-			<ul class="flex w-48 space-x-5">
-				<li>
-					<a href="https://www.facebook.com/maliquid.jason">
-						<img src={FacebookIcn} alt="Facebook" />
-					</a>
-				</li>
-				<li>
-					<a href="https://www.instagram.com/itz.me_jason">
-						<img src={InstagramIcn} alt="Instagram" />
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/OMGItsJason">
-						<img src={GithubIcn} alt="Github" />
-					</a>
-				</li>
-				<li>
-					<a href="https://mailto:jasonm2822@gmail.com">
-						<img src={GmailIcn} alt="Gmail" />
-					</a>
 				</li>
 			</ul>
 		</div>
