@@ -20,24 +20,14 @@
 >
 	<img src={ProfilePicture} alt="ProfilePicture" class="rounded-2xl w-60 sm:w-64" />
 	<div class="text-white space-y-2 sm:space-y-0 sm:mt-5">
-		<p class="mt-2 sm:mt-0 sm:text-lg animate-fade-right animate-delay-375 animate-duration-2000">
-			👋 Hello I'm
-		</p>
-		<h1 class="text-5xl sm:text-4xl animate-fade-left animate-delay-375 animate-duration-2000">
+		<p class="mt-2 sm:mt-0 sm:text-lg">👋 Hello I'm</p>
+		<h1 class="text-5xl sm:text-4xl">
 			<span class="font-bold text-sky-800">Jason</span>
 			<span class="font-bold text-yellow-500">Maliquid</span>
 		</h1>
-		<p class="sm:text-lg animate-fade-up animate-delay-375 animate-duration-2000">
-			💻 Front-End Web Developer
-		</p>
-		<p
-			class="flex items-center justify-center sm:justify-start sm:text-lg animate-fade-down animate-delay-375 animate-duration-2000"
-		>
-			<img
-				src={MapMarker}
-				alt="Pin"
-				class="w-5 mr-1 animate-fade-down animate-delay-375 animate-duration-2000"
-			/>Tabaco City, Philippines
+		<p class="sm:text-lg">💻 Front-End Web Developer</p>
+		<p class="flex items-center justify-center sm:justify-start sm:text-lg">
+			<img src={MapMarker} alt="Pin" class="w-5 mr-1" />Tabaco City, Philippines
 		</p>
 	</div>
 	<div class="flex justify-center sm:block sm:justify-start mt-5">
@@ -65,7 +55,7 @@
 		</ul>
 	</div>
 	<button
-		class="animate-jump animate-once animate-delay-375 animate-duration-2000 relative px-3 py-2 mt-5 text-white text-xs font-semibold rounded-xl overflow-hidden bg-yellow-500 transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-sky-800 before:to-sky-800 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0"
+		class="relative px-3 py-2 mt-5 text-white text-xs font-semibold rounded-xl overflow-hidden bg-yellow-500 transition-all duration-400 ease-in-out shadow-md hover:scale-105 hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-sky-800 before:to-sky-800 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0"
 		on:click={downloadCV}
 	>
 		Download CV

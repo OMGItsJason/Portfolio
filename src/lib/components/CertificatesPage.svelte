@@ -9,7 +9,7 @@
 		<span class="font-bold text-yellow-500">Certificates</span>
 	</h1>
 	<div class="px-10 sm:px-0">
-		<ul class="block space-y-5 sm:flex sm:flex-row sm:gap-5 sm:space-y-0 sm:items-center">
+		<ul class="block space-y-5 sm:space-y-0 sm:flex sm:gap-5">
 			<li>
 				<img src={JFC} alt="Java Foundation Certificate" class="w-full h-full object-fill" />Java
 				Foundation Certificate

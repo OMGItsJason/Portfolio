@@ -37,7 +37,7 @@
 			</li>
 		</ul>
 	</div>
-	<p>
+	<p class="pt-0 sm:pt-10">
 		More Projects: <a
 			href="https://github.com/OMGItsJason?tab=repositories"
 			class="text-lg bg-gradient-to-l from-yellow-300 to-sky-500 bg-clip-text text-transparent"
