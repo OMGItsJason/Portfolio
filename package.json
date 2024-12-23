@@ -35,5 +35,8 @@
 	"dependencies": {
 		"@vercel/analytics": "^1.4.1",
 		"tailwindcss-animated": "^1.1.2"
+	},
+	"engines": {
+		"node": ">=18"
 	}
 }
