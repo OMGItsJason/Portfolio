@@ -1,8 +1,15 @@
 <script>
 	import { onMount } from 'svelte';
 	import Loader from '$lib/svg/tube-spinner.svg';
+	/**
+	 * @typedef {Object} Props
+	 * @property {import('svelte').Snippet} [children]
+	 */
 
-	let isLoading = true;
+	/** @type {Props} */
+	let { children } = $props();
+
+	let isLoading = $state(true);
 
 	onMount(() => {
 		setTimeout(() => {
@@ -37,5 +44,5 @@
 		</div>
 	</div>
 {:else}
-	<slot />
+	{@render children?.()}
 {/if}

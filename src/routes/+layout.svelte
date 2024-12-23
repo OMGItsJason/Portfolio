@@ -12,8 +12,15 @@
 	import ProjectsPage from '$lib/components/ProjectsPage.svelte';
 	import CertificatesPage from '$lib/components/CertificatesPage.svelte';
 	import { goto } from '$app/navigation';
+	/**
+	 * @typedef {Object} Props
+	 * @property {import('svelte').Snippet} [children]
+	 */
 
-	let menuOpen = false;
+	/** @type {Props} */
+	let { children } = $props();
+
+	let menuOpen = $state(false);
 
 	function toggleScrollLock() {
 		const body = document.body;
@@ -40,7 +47,7 @@
 				<div>
 					<button
 						class="w-[50px]"
-						on:click={() => {
+						onclick={() => {
 							goto('/');
 						}}
 					>
@@ -50,7 +57,7 @@
 				<div class="block sm:hidden">
 					<button
 						class="w-[50px]"
-						on:click={() => {
+						onclick={() => {
 							menuOpen = !menuOpen;
 							toggleScrollLock();
 						}}
@@ -79,19 +86,19 @@
 				<div class="{menuOpen ? 'menu-open' : ''} h-svh w-svw mt-5">
 					<ul class="text-center text-xl font-medium text-white space-y-8">
 						<li>
-							<a href="/" on:click={closeMenu}>Home</a>
+							<a href="/" onclick={closeMenu}>Home</a>
 						</li>
 						<li>
-							<a href="#About" on:click={closeMenu}>About</a>
+							<a href="#About" onclick={closeMenu}>About</a>
 						</li>
 						<li>
-							<a href="#Skills" on:click={closeMenu}>Skills</a>
+							<a href="#Skills" onclick={closeMenu}>Skills</a>
 						</li>
 						<li>
-							<a href="#Projects" on:click={closeMenu}>Projects</a>
+							<a href="#Projects" onclick={closeMenu}>Projects</a>
 						</li>
 						<li>
-							<a href="#Certificates" on:click={closeMenu}>Certificates</a>
+							<a href="#Certificates" onclick={closeMenu}>Certificates</a>
 						</li>
 					</ul>
 				</div>
@@ -114,4 +121,4 @@
 		</section>
 	</div>
 </PageLoad>
-<slot />
+{@render children?.()}

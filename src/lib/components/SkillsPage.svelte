@@ -17,7 +17,7 @@
 		anchor.click();
 	}
 
-	let techExperience = [
+	let techExperience = $state([
 		{ lang: [Java], exp: '2 Years' },
 		{ lang: [Python], exp: '1 Year' },
 		{ lang: [Csharp], exp: '2 Years' },
@@ -26,7 +26,7 @@
 		{ lang: [JavaScript], exp: '1 Year' },
 		{ lang: [Svelte], exp: '1 Year' },
 		{ lang: [Tailwindcss], exp: '1 Year' }
-	];
+	]);
 
 	function handleHover(tech, isHovered) {
 		techExperience[tech].hovered = isHovered;
@@ -42,12 +42,12 @@
 		<ul class="flex items-center justify-center">
 			{#each Object.keys(techExperience) as tech}
 				<li class="relative">
-					<!-- svelte-ignore a11y-no-static-element-interactions -->
-					<!-- svelte-ignore a11y-mouse-events-have-key-events -->
+					<!-- svelte-ignore a11y_no_static_element_interactions -->
+					<!-- svelte-ignore a11y_mouse_events_have_key_events -->
 					<div
 						class="w-9 h-auto sm:w-auto"
-						on:mouseover={() => handleHover(tech, true)}
-						on:mouseout={() => handleHover(tech, false)}
+						onmouseover={() => handleHover(tech, true)}
+						onmouseout={() => handleHover(tech, false)}
 					>
 						<img
 							src={techExperience[tech].lang}
